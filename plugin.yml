@@ -1,0 +1,166 @@
+name: Notorious
+version: 1.4.1
+main: me.qiooip.notorious.Notorious
+author: qIooIp
+softdepend: [KoTH]
+depend: [Mango, Vault, WorldEdit, WorldGuard]
+commands:
+  chat:
+    description: ChatControl command.
+  cobble:
+    description: Cobble command.
+  coords:
+    description: Coords command.
+  cpsalerts:
+    description: Alerts command.
+  cps:
+    description: CPS Count command.
+  crowbar:
+    description: Crowbar command.
+    aliases: [wrench]
+  deathban:
+    description: DeathBan command.
+  endspawn:
+    description: Set End spawn command.
+  eotw:
+    description: EOTW command.
+  foundore:
+    description: FoundOre command.
+    aliases: [fd, fo]
+  freeze:
+    description: Freeze command.
+    aliases: [ss,screenshare]
+  help:
+    description: Help command.
+  firstjoinitems:
+    description: First Join items command.
+    aliases: [fji]
+  lives:
+    description: Lives command.
+  list:
+    description: List command.
+    aliases: [online]
+  logout:
+    description: Logout command.
+  mapkit:
+    description: MapKit command.
+    aliases: [viewkit,kitmap]
+  mutefaction:
+    description: MuteFaction command.
+    aliases: [factionmute,fm,mf]
+  notes:
+    description: Notes command.
+  notorious:
+    description: Main plugin command. 
+  ores:
+    description: Ores command.
+  medic:
+    description: Medic revive command.
+  pvp:
+    description: PvP Timer command.
+  report:
+    description: Report command.
+  request:
+    description: Request command.
+    aliases: [helpop]
+  sotw:
+    description: SOTW command.
+  staff:
+    description: StaffMode command.
+    aliases: [mod]
+  staffchat:
+    description: StaffChat command.
+    aliases: [sc,staffc,schat]
+  staffscoreboard:
+    description: Staff Scoreboard command.
+    aliases: [staffsb]
+  stats:
+    description: Stats command.
+  slots:
+    description: Slots command.
+  vanish:
+    description: Vanish command.
+    aliases: [v]
+  subclaim:
+    description: Subclaim command.
+permissions:
+  notorious.chatcontrol.mute:
+    description: ChatControl mute permission.
+  notorious.chatcontrol.mute.bypass:
+    description: ChatControl mute bypass permission.
+  notorious.chatcontrol.unmute:
+    description: ChatControl unmute permission.
+  notorious.chatcontrol.clear:
+    description: ChatControl clear permission.
+  notorious.chatcontrol.delay:
+    description: ChatControl delay permission.
+  notorious.chatcontrol.delay.bypass:
+    description: ChatControl delay bypass permission.
+  notorious.combatlogger.bypass:
+    description: CombatLogger bypass permission.
+  notorious.cpsalerts:
+    description: Alerts permission.
+  notorious.cps:
+    description: Cps permission.
+  notorious.cps.recieve:
+    description: Staff cps reieve permission.
+  notorious.crowbar:
+    description: Crowbar permission.
+  notorious.deathban.check:
+    description: DeathBan check permission.
+  notorious.deathban.revive:
+    description: DeathBan revive permission.
+  notorious.deathban.rollback:
+    description: DeathBan rollback permission.
+  notorious.endspawn.set:
+    description: EndSpawn set permission.
+  notorious.freeze.use:
+    description: Freeze permission.
+  notorious.joinfullserver:
+    description: Join full server permission.
+  notorious.lives.set:
+    description: Lives set permission.
+  notorious.lives.add:
+    description: Lives add permission.
+  notorious.mapkit.edit:
+    description: MapKit edit permission.
+  notorious.mutefaction:
+    description: MuteFaction permission.
+  notorious.notes:
+    description: Notes permission.
+  notorious.notify.join:
+    description: Notify on join permission.
+  notorious.notify.leave:
+    description: Notify on leave permission.
+  notorious.rankrevive:
+    description: Platinum revive permission.
+  notorious.reload:
+    description: Configs reload permission.
+  notorious.report.receive:
+    description: Report receive permission.
+  notorious.request.receive:
+    description: Request receive permission.
+  notorious.sotw.manage:
+    description: SOTW manage permission.
+  notorious.subclaim.bypass:
+    description: Subclaim bypass permission.
+  notorious.staff:
+    description: Staff permission.
+  notorious.staff.list:
+    description: Staff list permission.
+  notorious.staffmode:
+    description: Staff Mode permission.
+  notorious.staffchat.use:
+    description: StaffChat use permission.
+  notorious.staffchat.receive:
+    description: StaffChat receive permission.
+  notorious.staffscoreboard:
+    desctiprion: Staff Scoreboard permission.
+  notorious.stats:
+    description: Stats command permission.
+  notorious.slots:
+    description: Slots permission.
+  notorious.vanish:
+    description: Vanish permission.
+  notorious.vanish.onjoin:
+    description: Vanish on join permission.

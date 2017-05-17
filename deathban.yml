@@ -1,0 +1,16 @@
+deathban-enabled: true
+deathban-times:
+  Default:
+    deathBanTime: 90
+  Insider:
+    deathBanTime: 180
+  Donator:
+    deathBanTime: 75
+  Silver:
+    deathBanTime: 60
+  Gold:
+    deathBanTime: 45
+  Platinum:
+    deathBanTime: 30
+  Famous:
+    deathBanTime: 45

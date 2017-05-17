@@ -1,0 +1,71 @@
+######################   INSTRUCTIONS   ######################
+###  Use true to enable module                             ###
+###  Use false to disable module                           ### 
+###  !!NOTICE!! Restart or reload is required              ###
+##############################################################
+
+#####################   PVP CLASSES   ########################
+Archer: true
+Bard: true
+Miner: true
+
+######################   SCOREBOARD   ########################		
+ScoreboardHandler: true
+
+#######################   DEATHBAN   #########################
+DeathBanHandler: true
+
+######################   STAFF MODE   ########################
+StaffModeHandler: true
+
+########################   VANISH   ##########################
+VanishHandler: true
+
+###############   COMMANDS WITHOUT HANDLERS   ################
+CoordsCommand: true
+SetEndSpawnCommand: true
+HelpCommand: true
+FirstJoinItemsCommand: true
+ListCommand: true
+FactionMuteCommand: true
+StatsCommand: true
+
+####################   OTHER HANDLERS  #######################
+AutoSmeltHandler: true
+BlockedCommandsHandler: true
+BookDisenchantHandler: true
+ChatControlHandler: true
+CobbleHandler: true
+CombatLoggerHandler: true
+CombatTagHandler: true
+CPSCountHandler: true
+DeathSignHandler: true
+CrowbarHandler: true
+DeathMessageHandler: true
+EnchantmentLimiterHandler: true
+EnderPearlHandler: true
+EOTWHandler: true
+FoundOreHandler: true
+FreezeHandler: true
+FurnaceSpeedHandler: true
+GlassHandler: true
+GoldenAppleHandler: true
+ItemDisableHandler: true
+LogoutHandler: true
+MapKitHandler: true
+LootingAmplifierHandler: true
+MobStackHandler: true
+NetherPortalTrapHandler: true
+NotesHandler: true
+OresHandler: true
+PlateElevatorHandler: true
+PotionLimiterHandler: true
+MedicReviveHandler: true
+PvPTimerHandler: true
+ReportHandler: true
+RequestHandler: true
+SlotsHandler: true
+SOTWHandler: true
+StaffChatHandler: true
+StrengthNerfHandler: true
+SubclaimHandler: true

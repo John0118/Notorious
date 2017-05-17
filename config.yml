@@ -1,0 +1,371 @@
+#########   SCOREBOARD   #########
+scoreboard-title: "    &6&lTEST HCF &c[Map 1]  "
+scoreboard-line: "&7&m--------------------"
+combattag-placeholder: "&4&lCombat Tag: &c<time>"
+enderpearl-placeholder: "&2&lEnder Pearl: &c<time>"
+pvptimer-placeholder: "&a&lPvP Prot: &c<time>"
+sotw-placeholder: "&a&lSOTW: &c<time>"
+koth-placeholder: "&5&l<kothname> KoTH: &c<time>"
+pvpclass-warmup-placeholder: "&5&lClass Warmup: &c<time>"
+pvpclass-active-placeholder: "&7&lClass: &c<class>"
+archerspeed-placeholder: "&e&lSpeed Cooldown: &c<time>"
+archertag-placeholder: "&e&lMark <level>: &c<time>"
+bardenergy-placeholder: " &7Â» &b&lEnergy: &c<energy>"
+cooldown-placeholder: " &7Â» &6&lCooldown: &c<time>"
+elevator-teleport-placeholder: "&a&lTeleporting: &c<time>"
+logout-placeholder: "&b&lLogout: &c<time>"
+gapple-placeholder: "&6&lGApple: &c<time>"
+staffmode-placeholder: "&6StaffMode:"
+visibility-placeholder: "&7» &bVisibility:"
+chatmode-placeholder: "&7» &bChatMode:"
+gamemode-placeholder: "&7» &bGameMode:"
+
+#########   COMBAT TAG   #########
+combat-tag-duration: 45
+combat-tag-disabled-commands:
+- 'f home'
+- 'fhome'
+- 'f stuck'
+- 'fstuck'
+- 'logout'
+
+#########   ENDER PEARL   #########
+enderpearl-duration: 15
+
+#########   CROWBAR   #########
+crowbar-name: '&3&lCrowbar'
+crowbar-lore:
+- '&cSpawners: &7<scount>'
+- '&cPortals: &7<pcount>'
+crowbar-uses-spawners: 1
+crowbar-uses-portals: 6
+crowbar-spawner-name-color: '&a&l'
+
+#########   MEDIC REVIVE   #########
+medic-revive-cooldown: 60
+
+#########   GOLDEN APPLE #########
+golden-apple-cooldown: 7200 
+
+#########   STAFF MODE   #########
+staff-mode-items:
+  1:
+    name: '&6Inventory Inspect'
+    material-id: '340:0'
+    slot: 1
+    action: 'INVINSPECT'
+  2:
+    name: '&5Teleporter'
+    material-id: '345:0'
+    slot: 2
+    action: ''
+  3:
+    name: '&3Freeze'
+    material-id: '79:0'
+    slot: 3
+    action: 'FREEZE'
+  4:
+    name: '&bBetter View'
+    material-id: '78:0'
+    slot: 5
+    action: ''
+  5:
+    name: '&2CPS Check'
+    material-id: '262:0'
+    slot: 7
+    action: 'CPS'
+  6:
+    name: '&aVanish'
+    material-id: '288:0'
+    slot: 8
+    action: 'VANISH'
+  7:
+    name: '&cRandom Teleport'
+    material-id: '2259:0'
+    slot: 9
+    action: 'RANDOMTELEPORT'
+
+#########   DEATH SIGN   #########
+deathsign-timezone: 'Europe/Zagreb'
+deathsign-date-format: 'dd.MM HH:mm:ss'
+deathsign-name: '&6DeathSign'
+deathsign-lore:
+- '&a<killer>'
+- '&ekilled'
+- '&c<victim>'
+- '&b<date>'
+
+#########   SUBCLAIM   #########
+sign-title: '[&3Subclaim&r]'
+captains-only: '&aCaptains Only'
+leader-only: '&cLeader Only'
+
+#########   NETHER PORTAL TRAP FIX   #########
+nether-portal-trap-fix-enabled: true
+
+#########   MOB STACK   #########
+stack-color: 'RED'
+stacking-radius: 5
+stacking-entity:
+- 'ZOMBIE'
+- 'SKELETON'
+- 'SPIDER'
+- 'CAVE_SPIDER'
+
+#########   SOTW Timer   #########
+default-sotw-time: 7200
+
+#########   PVP TIMER   #########
+pvp-timer-duration: 1800
+pvp-timer-disabled-commands:
+- 'f home'
+- 'fhome'
+pvp-timer-disabled-items:
+- '145'
+- '46'
+- '327'
+- '12'
+- '13'
+- '30'
+- '259'
+glass-protected-regions:
+- 'koth1'
+- 'koth2'
+- 'koth3'
+- 'koth4'
+
+#########   STRENGTH NERF   #########
+strength-nerf-enabled: true
+strength1-nerf-percentage: 40
+strength2-nerf-percentage: 50
+
+#########   COMBAT LOGGER   #########
+combat-logger-time: 15
+
+#########   MAPKIT INVENTORY   #########
+mapkit-inventory-name: '&4&lMapKit'
+mapkit-inventory-size: 54
+
+#########   LOGOUT   #########
+logout-time: 30
+
+#########   REQUEST COMMAND   #########
+request-command-delay: 60
+
+#########   ORES COMMAND   #########
+ores-inventory-name: '&4&lOres &8- &3'
+
+#########   REPORT COMMAND   #########
+report-command-delay: 60
+report-inventory-title: '&3&lReasons'
+report-inventory-items:
+  1:
+    reason: '&cKill Aura / Forcefield'
+    material-id: '276:0'
+  2:
+    reason: '&bFly / Speed'
+    material-id: '288:0'
+  3:
+    reason: '&7X-Ray'
+    material-id: '56:0'
+  4:
+    reason: '&aFast Bow'
+    material-id: '261:0'
+  5:
+    reason: '&dAuto Pot / Auto Heal'
+    material-id: '373:16421'
+  6:
+    reason: '&3Phase / VClip'
+    material-id: '107:0'
+  7:
+    reason: '&6Fast Eat'
+    material-id: '322:0'
+  8:
+    reason: '&5Truce'
+    material-id: '340:0'
+  9:
+    reason: '&9Other'
+    material-id: '352:0'
+
+#########   CPS COUNT   #########
+cps-amount-for-warning: 15
+
+#########   UNREPAIRABLE ITEMS   #########
+unrepairable-lore-line: "&cUnrepairable"
+
+#########   LOOTING BONUS   #########
+looting-bonus: 100
+
+#########   FURNACE SPEED   #########
+furnace-speed-multiplier: 3
+
+#########   ELEVATOR   #########
+elevator-teleport-delay: 3
+elevator-bottom-block-id: 49
+
+#########   FOUND ORE   #########
+tracking-block-ids:
+- '56'
+- '129'
+
+#########   CORE COMMAND   #########
+enable-core-info: true
+
+#########   BLOCKED COMMANDS   ########
+blocked-commands:
+- 'op'
+- 'pl'
+- 'plugins'
+- 'icanhasbukkit'
+- 'minecraft:me'
+- 'minecraft:plugins'
+
+#########   FREEZE COMMAND   #########
+freeze-message-interval: 10
+freeze-disabled-commands:
+- 'f home'
+- 'fhome'
+- 'f stuck'
+- 'fstuck'
+- 'logout'
+
+#########   SLOTS COMMAND   ##########
+default-slots-amount: 300
+
+#########   PVP CLASSES   #########
+pvp-class-warmup-duration: 10
+
+archer-speedboost-level: 4
+archer-speedboost-duration: 10
+archer-speedboost-cooldown: 60
+
+## Archer Tag ##
+archer-tag-duration: 10
+archer-tag-effects:
+  tag1:
+    WEAKNESS:
+      duration: 5
+      level: 1
+  tag2:
+    SLOW:
+      duration: 5
+      level: 1
+  tag3:
+    POISON:
+      duration: 5
+      level: 1
+
+## Barding Items ##
+bard-hold-items:
+  353:
+    SPEED:
+      distance: 25
+      canBardHimself: false
+      duration: 5
+      level: 2
+  265:
+    DAMAGE_RESISTANCE:
+      distance: 25
+      canBardHimself: false
+      duration: 5
+      level: 1
+  288:
+    JUMP:
+      distance: 25
+      canBardHimself: true
+      duration: 5
+      level: 2
+  370:
+    REGENERATION:
+      distance: 25
+      canBardHimself: false
+      duration: 5
+      level: 1
+  378:
+    FIRE_RESISTANCE:
+      distance: 25
+      canBardHimself: true
+      duration: 5
+      level: 1
+
+bard-clickable-items:
+  353:
+    SPEED:
+      energyNeeded: 25 
+      distance: 25
+      duration: 5
+      level: 3
+  265:
+    DAMAGE_RESISTANCE:
+      energyNeeded: 35 
+      distance: 25
+      duration: 5
+      level: 3
+  288:
+    JUMP:
+      energyNeeded: 40 
+      distance: 25
+      duration: 5
+      level: 7
+  370:
+    REGENERATION: 
+      energyNeeded: 35 
+      distance: 25
+      duration: 5
+      level: 4
+  378:
+    FIRE_RESISTANCE:
+      energyNeeded: 40 
+      distance: 25
+      duration: 20
+      level: 1
+  377:
+    INCREASE_DAMAGE:
+      energyNeeded: 50
+      distance: 25
+      duration: 5
+      level: 1
+  375:
+    WITHER:
+      energyNeeded: 40 
+      distance: 25
+      duration: 5
+      level: 2
+
+bard-clickable-items-cooldown: 10
+
+## Archer Effects ##
+archer-potion-effects:
+  SPEED:
+    duration: 99999999
+    level: 3
+  DAMAGE_RESISTANCE:
+    duration: 99999999
+    level: 3
+
+## Bard Effects ##
+bard-potion-effects:
+  SPEED:
+    duration: 99999999
+    level: 2
+  REGENERATION:
+    duration: 99999999
+    level: 2
+  DAMAGE_RESISTANCE:
+    duration: 99999999
+    level: 2
+
+## Miner Effects ##
+miner-potion-effects:
+  FIRE_RESISTANCE:
+    duration: 99999999
+    level: 1
+  FAST_DIGGING:
+    duration: 99999999
+    level: 2
+  NIGHT_VISION:
+    duration: 99999999
+    level: 1
+  INVISIBILITY:
+    duration: 99999999
+    level: 1
